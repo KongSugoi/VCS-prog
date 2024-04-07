@@ -8,7 +8,7 @@
 
 `./myid`
 
-## Chạy Myid
+## Chạy Mypasswd
 <p> Biên dịch mypasswd.c</p>
 
 `gcc mypasswd.c -o mypasswd -lcrypt`
