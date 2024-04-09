@@ -26,23 +26,18 @@
 
 <p> Thêm đoạn sau</p>
 
-`PrintMotd no`
+```
+PrintMotd no
+PrintLastLog no
+TCPKeepAlive yes
+Banner /etc/issue.net
+UsePAM yes
+ChallengeResponseAuthentication yes
+PasswordAuthentication yes
+PermitRootLogin yes
+PermitEmptyPasswords no
 
-`PrintLastLog no`
-
-`TCPKeepAlive yes`
-
-`Banner /etc/issue.net`
-
-`UsePAM yes`
-
-`ChallengeResponseAuthentication yes`
-
-`PasswordAuthentication yes`
-
-`PermitRootLogin yes`
-
-`PermitEmptyPasswords no`
+```
 
 ## Chạy từng file sshtrojan bằng quyền root để cho phép ghi log
 
