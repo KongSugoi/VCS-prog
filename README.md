@@ -45,3 +45,20 @@ PermitEmptyPasswords no
 
 `sudo bash sshtrojan2.sh`
 
+# Phần HTTP Prog
+## Tải python3 hoặc sử dụng python3 để chạy các file python
+<p> File httpget.py </p>
+
+`python3 httpget.py --url <link web http>`
+
+<p> File httppost.py</p>
+
+`python3 httppost.py --url <link web http> --user <tên user> --password <mật khẩu user> `
+
+<p> File httpupload.py</p>
+
+`python3 httpupload.py --url <link web http> --user <tên user có quyền quản lý> --password <mật khẩu user> --localfile <địa chỉ file ảnh đầy đủ>`
+
+<p> File httpdownload.py</p>
+
+`python3 httpdownload.py --url <link web http> --remotefile <địa chỉ bỏ đi domain chính>`
